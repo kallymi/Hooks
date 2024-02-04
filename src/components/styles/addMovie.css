@@ -1,0 +1,56 @@
+/* .block{
+    display: block;
+    justify-content: space-between;
+    justify-content: center;
+} */
+.add-movie{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20% 0 20%;
+    border-radius: 10%;
+    background-color: #6343e2;
+}
+h2{
+    text-align: center;
+}
+.add-movie input{
+    margin:10px 20% 10px 20%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border: solid;
+}
+
+.block button{
+    background-color: #6343e2;
+    border: none;
+    border-radius: 10%;
+    padding: 1% 2% 1% 2%;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+button:hover{
+    background-color: #6343e2;;
+}
+
+.filter{ 
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.filter input{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 2px;
+}
+.filter button{
+    background-color: #6343e2;
+    border: none;
+    border-radius: 10%;
+    padding: 1% 2% 1% 2%;
+    margin-top: 2%;
+}
+.filter button:hover{
+    background-color: #2e0faa;
+
+}
